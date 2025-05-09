@@ -1,0 +1,159 @@
+.easter_egg{
+    color:aqua
+}
+/*main_page*/
+
+body{
+    background-color: aquamarine;
+}
+.sticky_header{
+    position: sticky;
+    top: 0px;
+    
+}
+.ani_text{
+    color: white;
+    position: relative;
+    right: 240px;
+}
+.header_div{
+    background-color: black; 
+    padding:2px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+#logo_img{
+    position: relative;
+    right: 175px;
+}
+#title{
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 185px ;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIjMBWQ-rmzi4I19iJa7TyrSj0CyEin1ICow&s");
+    color:white;
+    text-shadow: 5px 5px 10px darkblue;
+    
+    
+}
+.in_site_div{
+    border:3px solid darkblue;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.in_site_title{
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+    text-shadow: 5px 5px 10px darkblue;
+    padding-bottom: 185px;
+    background-color: white;
+}
+#pizza_title{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ITlfrZPl93kEuF01dq7H6DGrh5KN9ttWsA&s");
+}
+.mini_title{
+    font-size: larger;
+    text-decoration-line: overline;
+    text-decoration-color: darkblue;
+    text-decoration-thickness: 3px;
+    font-family: sans-serif;
+}
+ol{
+    font-size:large;
+    font-family: sans-serif;
+}
+#arcade_title{
+    background-image: url("https://static.arcade-game-sales.com/images/products/large/19266_1.jpg");
+    padding-bottom: 210px;
+}
+#title_party{
+    background-image: url("https://i.postimg.cc/yNRBbfYy/party.jpg");
+    padding-bottom: 110px;
+}
+#guest_title{
+    background-image: url("https://preview.redd.it/happy-8th-anniversary-fnaf-freddy-has-some-cake-for-the-v0-4dg847exoig91.png?width=640&crop=smart&auto=webp&s=462351f183057afebcd79a3ff00c70b1a5a84bad");
+    padding-bottom: 350px;
+}
+#ani_img{
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.img_ani{
+    border:2px solid darkred;
+}
+footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer_text{
+    color: white;
+}
+
+
+/*freddy`s_page*/
+#ani_title{
+    text-align: left;
+    position: absolute;
+    left: 130px;
+    padding-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.ani_body{
+    display: flex;
+    flex-direction: column;
+}
+#freddy_footer_in_main{
+    padding-bottom: 430px;
+}
+#ani_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.header_Home_text{
+    color: white;
+    font-size: 20px;
+}
+.ani_img{
+    border: 4px solid black;
+    position: relative;
+    top: 130px;
+}
+#freddy_img{
+    position: absolute;
+    top: 140px;
+}
+.ani_story{
+    font-size:large;
+    font-family: sans-serif;
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    
+}
+
+/*bonny`s_page and chica`s_page*/
+.ani_other_position{
+    border: 4px solid black;
+    position: relative;
+    top: 50px;
+}
+
+#bonny_and_chica_footer_in_main{
+    padding-bottom: 80px;
+}
+
+/*foxy`s_page*/
+#foxy_footer_in_main{
+    padding-bottom: 70px;
+}
