@@ -29,6 +29,7 @@ body{
 #logo_img{
     position: relative;
     right: 175px;
+    border-radius: 3px;
 }
 #title{
     font-family: sans-serif;
